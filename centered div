@@ -1,0 +1,67 @@
+<!DOCTYPEhtml>
+<html>
+
+<head>
+<title>testing input</title>
+</head>
+<style type="text/css">
+@media screen and("max-width:800px;") and ("min-width:400px;"){
+.element {background-color:teal;display:inline-block;}
+}
+
+.element {color:yellow;font-family:times new roman;
+background-color:blue;display:inline-block;font-size:40px; width:30%;text-align:center;}
+.element2 {color:blue;font-family:times new roman;
+background-color:yellow;display:inline-block;font-size:40px; width:30%;text-align:center;}
+.element3 {color:black;font-family:times new roman;
+background-color:orange;display:inline-block;font-size:40px; width:30%;text-align:center;}
+.element4 {text-align:center;color:black;font-family:times new roman;
+background-color:orange;display:block;font-size:40px;width:93%;}
+
+.element5 {text-align:center;color:black;font-family:times new roman;
+background-color:green;display:block;font-size:40px;width:93%;}
+main,desc,p{text-align:center;}
+</style>
+
+
+<body>
+
+<div class="element">
+<p> DIV1</p>
+</div>
+
+<div class="element2">
+<p> DIV2</p>
+</div>
+
+<div class="element3">
+<p> DIV3</p>
+</div>
+
+<div class="element4">
+<p>DIV4</p>
+</div>
+<div class="element5">
+<p>DIV5</p>
+</div>
+<main>
+<h3 > how to center a div</h3>
+<p >we used (display:inline-block;)declaration<br>
+to center a div(DIV1~3)
+also (display:block)declaration<br>
+for the DIV4 and DIV5
+
+</main>
+
+<footer>
+<pre>project by:ALLEN JESTER
+     project level:biginner
+     language used:html/css
+     
+     project description:how to 
+     center a div
+     </pre>
+</footer>
+</body>
+
+</html>
